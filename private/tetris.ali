@@ -1,0 +1,101 @@
+V "GNAT Lib v7"
+M P W=b
+P ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U tetris%b		tetris.adb		9ba32335 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.delays%s  a-retide.adb		a-retide.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-calend.ads		20160420090448 2d5f01d4 ada.calendar%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-flteio.ads		20070406091342 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20070406091342 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20160420090448 a87e2da7 ada.real_time%s
+D a-retide.ads		20090409150019 081cdaa4 ada.real_time.delays%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiflio.ads		20140717063513 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-c.ads		20110801143639 5421119b interfaces.c%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-atacco.ads		20120515093410 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-linux.ads		20150107101203 2fda6ad1 system.linux%s
+D s-multip.ads		20101011073009 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20180726122552 7b5577db system.os_constants%s
+D s-osinte.ads		20170314092617 ad16bc4a system.os_interface%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stausa.ads		20110804134155 017a0a05 system.stack_usage%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20140613095942 2b3f8252 system.task_info%s
+D s-taspri.ads		20141120144719 e3ab4429 system.task_primitives%s
+D s-taprop.ads		20140521131406 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20170112134946 05d6152c system.tasking%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+D tetris.adb		20190204141538 312e3496 tetris%b
+X 1 ada.ads
+16K9*Ada 20e8 40|1r6 1r23 2r6 2r31 3r6 3r29 4r6 4r25 5r6 5r24 90r7
+X 2 a-calend.ads
+36K13*Calendar 395e17 40|5w10 5r28
+X 4 a-flteio.ads
+20K13*Float_Text_IO[12|46] 40|3w10 3r33
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[13|46] 40|2w10 2r35
+X 7 a-reatim.ads
+39K13*Real_Time 187e18 40|4w10 4r29
+51O9*Time<duration>
+56O9*Time_Span<duration> 40|13r16
+63V13*Clock{51O9} 40|75s25 85s19
+67V14*"+"{51O9} 40|75s31 85s25
+121V13*Milliseconds{56O9} 40|13s29 75s33
+X 11 a-textio.ads
+49K13*Text_IO 471e16 40|1w10 1r27 90r11
+166U14*New_Line 40|37s15 64s10
+231U14*Get_Immediate 40|23s7
+242U14*Put 40|42s16 44s16 48s22 50s22 53s19 90s19
+X 13 a-tiinio.ads
+66U14*Put 40|37s7[5|18]
+X 30 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 40 tetris.adb
+6U11*Tetris 6b11 96l5 96t11
+7i4 Rows{integer} 38r21 41r33 73r24
+8i4 Cols{integer} 40r24 43r38
+9i4 FPS{integer} 13r48 72r28
+12i4 I{integer} 37r11 72r22 84m7 84r12
+13o4 Poll_Time{7|56O9} 85r27
+14i4 Blockcol{integer} 26m22 26r34 27m22 27r34 47r28 47r46 77m13
+15i4 Blockrow{integer} 46r25 46r43 73r13 76m13 79m16 79r28
+16e4 Answer{character} 23m21 25r12
+17b4 Available{boolean} 23m29 24r10 31m7
+18b4 Fastdrop{boolean} 28m22 72r10 74m13
+38i11 Row{integer} 41r16 41r27 46r19 46r37
+40i14 Col{integer} 43r21 43r32 47r22 47r40
+

@@ -1,0 +1,64 @@
+V "GNAT Lib v7"
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U date_package%b	date_package.adb	7c9456c3 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+
+U date_package%s	date_package.ads	462b3c23 EE NE OO PK
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-inteio.ads		20070406091342 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D date_package.ads	20190218175706 462b3c23 date_package%s
+D date_package.adb	20190218175813 f4991690 date_package%b
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-valint.ads		20090409150019 48a52a3f system.val_int%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 1r23 2r6 2r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 11|2w10 2r35
+X 7 a-textio.ads
+49K13*Text_IO 471e16 11|1w10 1r27
+240U14*Get 11|9s7
+242U14*Put 11|18s7 21s10 26s7 29s10
+X 8 a-tiinio.ads
+66U14*Put 11|17s7[3|18] 24s7[3|18] 32s7[3|18]
+X 10 date_package.ads
+2K9*Date_Package 7E9 14l5 14e17 11|3b14 36l5 36t17
+3R9*Date_Type 4r28 5r27 7c9 12e17 11|6r28 15r27
+4U14*Get 4<18 11|6b14 13l8 13t11
+4r18 Date{3R9} 11|6b18 10m7 11m7 12m7
+5U14*Put 5>18 11|15b14 34l8 34t11
+5r18 Date{3R9} 11|15b18 17r11 20r10 24r11 28r10 32r11
+9i10*Year{integer} 11|10m12 17r16
+10i10*Month{integer} 11|11m12 20r15 24r16
+11i10*Day{integer} 11|12m12 28r15 32r16
+X 11 date_package.adb
+7a7 Ins{string} 9m11 10r34 11r35 12r33
+

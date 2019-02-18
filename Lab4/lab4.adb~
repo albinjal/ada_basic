@@ -1,0 +1,12 @@
+with Time_Package; use Time_Package;
+
+procedure Lab4 is
+   
+   
+   
+begin
+   
+   Tester;
+   
+   
+end Lab4;

@@ -1,0 +1,96 @@
+with Ada.Text_IO; use Ada.Text_IO;
+with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
+with Ada.Float_Text_IO; use Ada.Float_Text_IO;
+with Ada.Real_Time; use Ada.Real_Time;
+with Ada.Calendar; use Ada.Calendar;
+procedure Tetris is
+   Rows: Integer := 38;
+   Cols: Integer := 22;
+   FPS: Integer := 240;
+  -- Höjd: Integer := 18;
+  -- Bredd: Integer := 10;
+   I: Integer := 0;
+   Poll_Time : Time_Span := Milliseconds (1000/FPS);
+   Blockcol: Integer := 6;
+   Blockrow: Integer := 0;
+   Answer : Character;
+   Available: Boolean := False;
+   Fastdrop: Boolean := False;
+  -- Framestart: Time;
+       -- Period : constant Time_Span := Milliseconds (1000/60);
+begin
+   loop
+      Get_Immediate(Answer, Available);
+      if Available then
+      case Answer is
+	 when 'd' => Blockcol := Blockcol + 2;
+	 when 'a' => Blockcol := Blockcol - 2;
+	 when ' ' => Fastdrop := True;
+	 when others => null;
+      end case;
+      Available := False;
+      end if;
+	 
+	 
+      
+     -- Framestart := Clock;
+      Put(I); New_Line(1);
+      for Row in 1..Rows loop
+	 
+	 for Col in 1..Cols loop
+	    if Row = 1 or Row = Rows then
+	       Put("--");
+	    else if Col = 1 or Col = Cols then
+	       Put("|");
+	    else
+	       if Row = Blockrow or Row = Blockrow + 1 then
+		  if Col = Blockcol or Col = Blockcol +1 then
+		     Put("[]");
+		  else
+		     Put("  ");
+		  end if;
+	       else
+		  Put("  ");
+		  
+	       end if;
+	       end if;
+	    end if;
+	    
+	    
+	    
+	    
+	    
+	 end loop;
+	 New_Line(1);
+	 
+	 
+	 
+	 
+      end loop;
+      
+      
+      if Fastdrop or I mod FPS = 0 then
+	 if Blockrow = Rows -2 then
+	    Fastdrop := False;
+	    delay until Clock + Milliseconds(500);
+	    Blockrow := 0;
+	    Blockcol := 6;
+	    else
+	       Blockrow := Blockrow + 2;
+	    end if;
+
+      end if;
+      
+      I := I + 1;
+      delay until Clock + Poll_Time;
+      
+      --New_Line(30);
+      
+      -- CLEAR TERMINAL
+      Ada.TEXT_IO.Put(ASCII.ESC & "[2J");
+   end loop;
+   
+   
+   
+   
+end Tetris;
