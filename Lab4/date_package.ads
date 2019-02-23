@@ -3,6 +3,9 @@ package Date_Package is
 	procedure Get(Date: out Date_Type);
 	procedure Put(Date: in Date_Type);
 	procedure Test_Leap_Years;
+	function "="(Date1, Date2: in Date_Type) return Boolean;
+	function ">"(Date1, Date2: in Date_Type) return Boolean;
+	function "<"(Date2, Date1: in Date_Type) return Boolean;
 	function Next_Date(Date: in Date_Type) return Date_Type;
 	function Previous_Date(Date: in Date_Type) return Date_Type;
 private

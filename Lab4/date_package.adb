@@ -2,6 +2,68 @@ with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
 package body Date_Package is
 
+	function "="(Date1, Date2: Date_Type)
+		return Boolean is
+	begin
+		if Date1.Year = Date2.Year and Date1.Month = Date2.Month and Date1.Day = Date2.Day then
+			return True;
+		else
+			return False;
+		end if;
+	end;
+
+	function "<"(Date2, Date1: Date_Type)
+		return Boolean is
+	begin
+		if Date1.Year >= Date2.Year then
+			if Date1.Year > Date2.Year then
+				return True;
+			else
+				if Date1.Month >= Date2.Month then
+					if Date1.Month > Date2.Month then
+						return True;
+					else
+						if Date1.Day > Date2.Day then
+							return True;
+						else
+							return False;
+						end if;
+					end if;
+				else
+					return False;
+				end if;
+			end if;
+		else
+			return False;
+		end if;
+	end;
+
+	function ">"(Date1, Date2: Date_Type)
+		return Boolean is
+	begin
+		if Date1.Year >= Date2.Year then
+			if Date1.Year > Date2.Year then
+				return True;
+			else
+				if Date1.Month >= Date2.Month then
+					if Date1.Month > Date2.Month then
+						return True;
+					else
+						if Date1.Day > Date2.Day then
+							return True;
+						else
+							return False;
+						end if;
+					end if;
+				else
+					return False;
+				end if;
+			end if;
+		else
+			return False;
+		end if;
+	end;
+
 	function Is_Leap_Year(Year: in Integer)
 		return Boolean is
 	begin
