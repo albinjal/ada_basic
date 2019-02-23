@@ -5,3 +5,6 @@
 # ignore emacs proprietary files
 *.ads~
 *.adb~
+
+# ignore .DS_Store
+.DS_Store
