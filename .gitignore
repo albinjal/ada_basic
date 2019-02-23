@@ -1,0 +1,7 @@
+# ignore compiled files
+*.ali
+*.o
+
+# ignore emacs proprietary files
+*.ads~
+*.adb~
