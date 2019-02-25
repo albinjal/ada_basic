@@ -1,4 +1,8 @@
 package Date_Package is
+	YEAR_ERROR: exception;
+	MONTH_ERROR: exception;
+	DAY_ERROR: exception;
+	FORMAT_ERROR: exception;
 	type Date_Type is private;
 	procedure Get(Date: out Date_Type);
 	procedure Put(Date: in Date_Type);

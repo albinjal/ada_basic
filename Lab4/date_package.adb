@@ -125,10 +125,57 @@ package body Date_Package is
 		Ins: String(1..10);
 	begin
 		Get(Ins);
-		Date.Year := Integer'Value(Ins(1..4));
-		Date.Month := Integer'Value(Ins(6..7));
-		Date.Day := Integer'Value(Ins(9..10));
-	end Get; 
+		
+
+		for I in Ins'Range loop
+
+			if I = 5 or I = 8 then
+				if Ins(I) /= '-' then
+					raise FORMAT_ERROR;
+				end if;
+			end if;
+
+			if I in 1..4 then
+				if Ins(I) not in '0'..'9' then
+					raise FORMAT_ERROR;
+				end if;
+			end if;
+
+			if I in 6..7 then
+				if Ins(I) not in '0'..'9' then
+					raise FORMAT_ERROR;
+				end if;
+			end if;
+
+			if I in 9..10 then
+				if Ins(I) not in '0'..'9' then
+					raise FORMAT_ERROR;
+				end if;
+			end if;
+			end loop;
+			Date.Year := Integer'Value(Ins(1..4));
+			Date.Month := Integer'Value(Ins(6..7));
+			Date.Day := Integer'Value(Ins(9..10));
+
+			if Date.Year > 9999 or Date.Year < 0 then
+				raise YEAR_ERROR;
+			end if;
+
+			if Date.Month > 12 or Date.Month < 1 then
+				raise MONTH_ERROR;
+			end if;
+
+			if Date.Day > Last_Day_Of_Month(Date.Month, Date.Year) or Date.Day < 1 then
+				raise DAY_ERROR;
+			end if;
+
+		
+
+		--if Date.Year < 0 or Date.Year > 9999 then
+		--	raise YEAR_ERROR;
+		--end if;
+
+	end Get;
    
 	-- Skriver ut datum
 	procedure Put(Date: in Date_Type) is
