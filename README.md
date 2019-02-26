@@ -5,7 +5,7 @@
 * Lab 1: Klar
 * Lab 2: Klar
 * Lab 3: Klar
-* Lab 4: Del A B C D Klar, Del E F G kvar
+* Lab 4: Klar
 * Lab 5: Ej påbörjad
 * Lab 6: Ej påbörjad
 * Lab M: Matlab. Kanske inte relevant att ha här
