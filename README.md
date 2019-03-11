@@ -6,6 +6,6 @@
 * Lab 2: Klar
 * Lab 3: Klar
 * Lab 4: Klar
-* Lab 5: Ej påbörjad
+* Lab 5: Påbörjad
 * Lab 6: Ej påbörjad
 * Lab M: Matlab. Kanske inte relevant att ha här
