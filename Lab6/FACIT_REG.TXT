@@ -1,0 +1,31 @@
+Kverulando          Kajsa               Basungången 3       KAPELLSKÄR                    5          1          6          8         10         14
+Allegrettho         Albert              Fiolgatan 3         ALBY                          4          2          4          7         12
+Glissando           Gloria              Pianovägen 26 d     GLADHAMMAR                    7          2          3          5          6          9         10         15
+Hysterico           Hilding             Gonggången 5        HYLTEBRUK                     5          2          3          5          7         12
+Presto              Pelle               Ukuleleleden 13     PÅSKALLAVIK                   4          3          6          7         13
+Staccato            Stina               Gambagatan 66 e     STUDSVIK                      4          1          3          8         13
+Tempo               Kalle A             Basungången 15      TECKOMATORP                   6          1          5          7          9         10         15
+Fortissimo          Folke               Cembalovägen 9      FORSMARK                      4          3          5          7          9
+Galanto             Gunnel              Horngatan 423       GUSTAVSBERG                   2          4          9
+Unisono             Uno                 Gigagatan 4         UMEÅ                          4          6         10          1          3
+Piano               Pia                 Sinkabrinken 12     PITEÅ                         5          2          5          6          9         12
+Grazioso            Grace               Ackordionsvängen 344GAMMLEBY                      7          1          2          3          4          6          7          8
+Ritardando          Rita                Krumhornskroken 4   RIMFORSA                      5          2          3          6          8         12
+Nontroppo           M A                 Fagottstigen 1      NORMLÖSA                      6          2          3          4          6          9         13
+Majestoso           Maja                Basungången 4       MARIESTAD                     5          2          3          6          9         10
+Subito              Sune                Fiddlastigen 5      SURAHAMMAR                    4          4          7         12         14
+Xelerando           A                   Trumpetstigen 39    AXEVALLA                      4          2          4          7          8
+Obligato            Osvald              Okarinavägen 6 c    OSBY                          7          1          2          5          7          9         10         14
+Jubilato            Johan               Pukallén 4          JULITA                        3          2          6          7
+Effectivo           Erik                Ukuleleleden 2      ESKILSTUNA                    3          2          6          7
+Marcato             Maria               Celestavägen 89 h BvMALÅ                          6          9         11         12         13         14         15
+Dolce               Dolly               Klarinettgatan 4    DOMNARVET                     4          2          3          9         15
+Legato              Lasse               Celloavenyn 55 d    LERÅKER                       4          8         12         14         15
+Molto               Maja                Flöjtens väg 2 a    MOLKOM                        5          3          5          7         12         15
+Portato             Putte               Harpapassagen 3     PUSTERVIKEN                   2          5         13
+Parlando            Palle               Orgelgatan 44       PAJALA                        6          2          3          4          8         10         13
+Virtuoso            Vilhelm             Sinkabrinken 5 b    VITTANGI                      6          2          4          7          8         10         13
+Brio                Britta Con          Stråket 1           BROMÖLLA                      5          1          5          6          9         12
+Cresendo            Crister             Basungången 32 a    KRISTIANSTAD                  3          5          7         13
+Dacapo              Dan                 Gitarrvägen 18      DANDERYD                      4          2          7         12         14
+Interludio          Inga                Oboevägen 3 c       INGELSTAD                     4          1          2         10         11
