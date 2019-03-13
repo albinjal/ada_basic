@@ -3,9 +3,9 @@ with Ada.Text_IO; use Ada.Text_IO;
 
 procedure Lab4fg is
 
-	type Dates is array (1..10) of Date_Type;
+   type Dates is array (1..10) of Date_Type;
 
-	procedure Sort(Arrayen_Med_Talen: in out Dates) is
+   procedure Sort(Arrayen_Med_Talen: in out Dates) is
 		procedure Swap(Tal_1,Tal_2: in out Date_Type) is 
       Tal_B : Date_Type; -- Temporary buffer
    begin
