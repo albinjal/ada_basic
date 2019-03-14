@@ -20,8 +20,8 @@ package body Person_Handling is
 	    
    procedure Put(Pers: in Person) is
       begin
-      Put(Pers.Name(1..20)); Put(" ");
-      Put(Pers.Address(1..20)); Put(" ");
+      Put(Pers.Name(1..Pers.Name_Length)); Put(" ");
+      Put(Pers.Address(1..Pers.Address_Length)); Put(" ");
       Put(Pers.Birth); Put(" ");
    end Put;
 
@@ -30,14 +30,19 @@ package body Person_Handling is
       Name: String(1..20);
       Address: String(1..20);
       Birth: Date_Type;
-      I: Integer;
 
       begin
-         Get_Line(Pers.Name, I);
-         if I = 20 then Skip_Line; end if;
-         Get_Line(Pers.Address, I);
-         if I = 20 then Skip_Line; end if;
+         Put("Namn: ");
+         Get_Line(Pers.Name, Pers.Name_Length);
+         if Pers.Name_Length >= 20 then Skip_Line; end if;
+
+         Put("Adress: ");
+         Get_Line(Pers.Address, Pers.Address_Length);
+         if Pers.Address_Length >= 20 then Skip_Line; end if;
+
+         Put("Födelsedatum: ");
          Get(Pers.Birth);
+         Skip_Line;
    end Get;
    
    

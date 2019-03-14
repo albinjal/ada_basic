@@ -17,6 +17,8 @@ private
 	 Name: String(1..20);
 	 Address: String(1..20);
 	 Birth: Date_Type;
+    Name_Length: Integer;
+    Address_Length: Integer;
       end record;
       
 end Person_Handling;
