@@ -1,23 +1,23 @@
+with Person_Handling; use Person_Handling;
 
-package Sorted_List is
+package Person_Sorted_List is
    CANTFIND_ERROR: exception;
    type List_Type is private;
    
    function Empty(List: List_Type)
 		 return Boolean;
-   function Member(List: List_Type; Search: Integer)
+   function Member(List: List_Type; Search: Person)
 		  return Boolean;
-   function Find(List: List_Type; Search: Integer)
-		return Integer;
+   function Find(List: List_Type; Search: Person)
+		return Person;
    function Length(List: List_Type)
 		  return Integer;
    
-   procedure Insert(List: in out List_Type; Int: in Integer);
+   procedure Insert(List: in out List_Type; Data: in Person);
    procedure Put(List: in List_Type);
-   procedure Remove(List: in out List_Type; Search: in Integer);
+   procedure Remove(List: in out List_Type; Search: in Person);
    procedure Delete(List: in out List_Type);
-   procedure Find(List: in List_Type; Search: in Integer; Data: out Integer);
-   
+   procedure Find(List: in List_Type; Search: in Person; Data: out Person);
    
 private
    type Post;
@@ -27,7 +27,7 @@ private
   
    type Post is
       record
-	 Data: Integer;
+	 Data: Person;
 	 Point: List_Type;
       end record;
    
@@ -35,4 +35,4 @@ private
    
    
    
-end Sorted_List;
+end Person_Sorted_List;

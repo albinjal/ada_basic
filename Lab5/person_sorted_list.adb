@@ -1,8 +1,9 @@
 with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
 with Ada.Unchecked_Deallocation; 
+with Person_Handling; use Person_Handling;
 
-package body Sorted_List is
+package body Person_Sorted_List is
    
    procedure Free is
       
@@ -16,25 +17,25 @@ package body Sorted_List is
    end Empty;
    
    
-   procedure Insert_First(List: in out List_Type; Int: in Integer) is
+   procedure Insert_First(List: in out List_Type; Data: in Person) is
       Temp: List_Type;
    begin
        Temp := List;
 	   List := new Post;
-	   List.Data := Int;
+	   List.Data := Data;
 	   List.Point := Temp;
    end Insert_First;
    
       
-   procedure Insert(List: in out List_Type; Int: in Integer) is
+   procedure Insert(List: in out List_Type; Data: in Person) is
       
    begin
       if Empty(List) then
-	 Insert_First(List, Int);
-      elsif Int < List.Data then
-	  Insert_First(List, Int);
+	 Insert_First(List, Data);
+      elsif Data < List.Data then
+	  Insert_First(List, Data);
       else
-	 Insert(List.Point, Int);
+	 Insert(List.Point, Data);
       end if;
       
    
@@ -51,7 +52,7 @@ package body Sorted_List is
      end if;
    end Put;
    
-   function Member(List: List_Type; Search: Integer)
+   function Member(List: List_Type; Search: Person)
 		  return Boolean is
       
    begin
@@ -74,7 +75,7 @@ package body Sorted_List is
 	 Free(Temp);
       end RemoveCurrent;
       
-   procedure Remove(List: in out List_Type; Search: in Integer) is
+   procedure Remove(List: in out List_Type; Search: in Person) is
       
       
       
@@ -109,9 +110,8 @@ package body Sorted_List is
       
    end Delete;
    
-   function Find(List: List_Type; Search: Integer)
-		return Integer is
-      
+   function Find(List: List_Type; Search: Person)
+		return Person is
       
       
    begin
@@ -128,7 +128,7 @@ package body Sorted_List is
       return Find(List.Point, Search);
       
    end Find;
-   procedure Find(List: in List_Type; Search: in Integer; Data: out Integer) is
+   procedure Find(List: in List_Type; Search: in Person; Data: out Person) is
    begin
       
       Data := Find(List, Search);
@@ -143,9 +143,6 @@ package body Sorted_List is
       end if;
       return 1;
    end Length;
-   
-   
 
-     
    
-end Sorted_List;
+end Person_Sorted_List;
