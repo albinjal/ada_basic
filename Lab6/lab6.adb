@@ -38,10 +38,10 @@ procedure Lab6 is
 
 					for I in 1..InputLine'Last loop
 						-- Kolla om tecknet är mellanslag
-						Put(InputLine(I));
-						Put(" > ");
-						Put( Character'Pos(InputLine(I)) );
-						New_Line;
+						--Put(InputLine(I));
+						--Put(" > ");
+						--Put( Character'Pos(InputLine(I)) );
+						--New_Line;
 
 						if(Character'Pos(InputLine(I)) = 32) then
 							-- Tecknet var mellanrum!
@@ -59,11 +59,11 @@ procedure Lab6 is
 									--Put("SPACE"); New_Line;
 								else 
 								-- Föregående tecken var ett mellanrum, avsluta elementet!
-									----New_Line;
-									----Put("|");
-									----Put(TmpStr);
-									----Put("|");
-									----New_Line;New_Line;
+									New_Line;
+									Put("|");
+									Put(TmpStr);
+									Put("|");
+									New_Line;New_Line;
 									--Put("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");
 									-- Töm elementet
 									TmpStr := To_Unbounded_String("");
@@ -77,19 +77,19 @@ procedure Lab6 is
 							
 
 							case Character'Pos(InputLine(I)) is
-								when 0..32 => null; -- Put("->"); Put( Character'Pos(InputLine(I)) ); New_Line;
+								when 0..32 => null; Put("->"); Put( Character'Pos(InputLine(I)) ); New_Line;
 								when 196 => 
-									Append(TmpStr, "Ä"); --Put( "Ä" ); Put(" === "); Put( Character'Pos( InputLine(I) ) ); New_Line;
+									Append(TmpStr, "Ä"); Put( "Ä" ); Put(" === "); Put( Character'Pos( InputLine(I) ) ); New_Line;
 								when 197 => 
-									Append(TmpStr, "Å"); --Put( "Å" ); Put(" === "); Put( Character'Pos( InputLine(I) ) ); New_Line;
+									Append(TmpStr, "Å"); Put( "Å" ); Put(" === "); Put( Character'Pos( InputLine(I) ) ); New_Line;
 								when 214 => 
-									Append(TmpStr, "Ö"); --Put( "Ö" ); Put(" === "); Put( Character'Pos( InputLine(I) ) ); New_Line;
+									Append(TmpStr, "Ö"); Put( "Ö" ); Put(" === "); Put( Character'Pos( InputLine(I) ) ); New_Line;
 								when 228 => 
-									Append(TmpStr, "ä"); --Put( "ä" ); Put(" === "); Put( Character'Pos( InputLine(I) ) ); New_Line;
+									Append(TmpStr, "ä"); Put( "ä" ); Put(" === "); Put( Character'Pos( InputLine(I) ) ); New_Line;
 								when 229 => 
-									Append(TmpStr, "å"); --Put( "å" ); Put(" === "); Put( Character'Pos( InputLine(I) ) ); New_Line;
+									Append(TmpStr, "å"); Put( "å" ); Put(" === "); Put( Character'Pos( InputLine(I) ) ); New_Line;
 								when 246 => 
-									Append(TmpStr, "å"); --Put( "å" ); Put(" === "); Put( Character'Pos( InputLine(I) ) ); New_Line;
+									Append(TmpStr, "å"); Put( "å" ); Put(" === "); Put( Character'Pos( InputLine(I) ) ); New_Line;
 								when others =>		
 									Append(TmpStr, InputLine(I));					
 									--Put( InputLine(I) );
