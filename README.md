@@ -6,6 +6,5 @@
 * Lab 2: Klar
 * Lab 3: Klar
 * Lab 4: Klar
-* Lab 5: Påbörjad
-* Lab 6: Påbörjad och den är omöjlig utan hjälp
-* Lab M: Matlab. Kanske inte relevant att ha här
+* Lab 5: Klar
+* Lab 6: Klar
