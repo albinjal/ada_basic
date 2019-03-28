@@ -8,3 +8,5 @@
 * Lab 4: Klar
 * Lab 5: Klar
 * Lab 6: Klar
+
+Tenta: Albin 5, David 5.
