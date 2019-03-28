@@ -1,16 +1,44 @@
-Kajsa                Kverulando           Basungången 3        KAPELLSKÄR           *** Intressen:  1 
+Kajsa                Kverulando           Basungången 3        KAPELLSKÄR           *** Intressen: 14 
 ----------------------------------------------------------------------------------------------------
-Stina                Staccato             Gambagatan 66 e      STUDSVIK             *** Intressen:  1 
+Albert               Allegrettho          Fiolgatan 3          ALBY                 *** Intressen: 14 
 ----------------------------------------------------------------------------------------------------
-Kalle A              Tempo                Basungången 15       TECKOMATORP          *** Intressen:  1 
+Pelle                Presto               Ukuleleleden 13      PÅSKALLAVIK          *** Intressen: 13 
 ----------------------------------------------------------------------------------------------------
-Uno                  Unisono              Gigagatan 4          UMEÅ                 *** Intressen:  1 
+Stina                Staccato             Gambagatan 66 e      STUDSVIK             *** Intressen: 13 
 ----------------------------------------------------------------------------------------------------
-Grace                Grazioso             Ackordionsvängen 344 GAMMLEBY             *** Intressen:  1 
+M A                  Nontroppo            Fagottstigen 1       NORMLÖSA             *** Intressen: 13 
 ----------------------------------------------------------------------------------------------------
-Osvald               Obligato             Okarinavägen 6 c     OSBY                 *** Intressen:  1 
+Maja                 Majestoso            Basungången 4        MARIESTAD            *** Intressen: 13 
 ----------------------------------------------------------------------------------------------------
-Britta Con           Brio                 Stråket 1            BROMÖLLA             *** Intressen:  1 
+Sune                 Subito               Fiddlastigen 5       SURAHAMMAR           *** Intressen: 13 14 
 ----------------------------------------------------------------------------------------------------
-Inga                 Interludio           Oboevägen 3 c        INGELSTAD            *** Intressen:  1 
+A                    Xelerando            Trumpetstigen 39     AXEVALLA             *** Intressen: 13 
+----------------------------------------------------------------------------------------------------
+Osvald               Obligato             Okarinavägen 6 c     OSBY                 *** Intressen: 14 
+----------------------------------------------------------------------------------------------------
+Johan                Jubilato             Pukallén 4           JULITA               *** Intressen: 14 
+----------------------------------------------------------------------------------------------------
+Erik                 Effectivo            Ukuleleleden 2       ESKILSTUNA           *** Intressen: 14 
+----------------------------------------------------------------------------------------------------
+Maria                Marcato              Celestavägen 89 h Bv MALÅ                 *** Intressen: 13 14 
+----------------------------------------------------------------------------------------------------
+Dolly                Dolce                Klarinettgatan 4     DOMNARVET            *** Intressen: 14 
+----------------------------------------------------------------------------------------------------
+Lasse                Legato               Celloavenyn 55 d     LERÅKER              *** Intressen: 14 
+----------------------------------------------------------------------------------------------------
+Maja                 Molto                Flöjtens väg 2 a     MOLKOM               *** Intressen: 14 
+----------------------------------------------------------------------------------------------------
+Putte                Portato              Harpapassagen 3      PUSTERVIKEN          *** Intressen: 13 14 
+----------------------------------------------------------------------------------------------------
+Palle                Parlando             Orgelgatan 44        PAJALA               *** Intressen: 13 14 
+----------------------------------------------------------------------------------------------------
+Vilhelm              Virtuoso             Sinkabrinken 5 b     VITTANGI             *** Intressen: 13 14 
+----------------------------------------------------------------------------------------------------
+Britta Con           Brio                 Stråket 1            BROMÖLLA             *** Intressen: 13 14 
+----------------------------------------------------------------------------------------------------
+Crister              Cresendo             Basungången 32 a     KRISTIANSTAD         *** Intressen: 13 14 
+----------------------------------------------------------------------------------------------------
+Dan                  Dacapo               Gitarrvägen 18       DANDERYD             *** Intressen: 13 14 
+----------------------------------------------------------------------------------------------------
+Inga                 Interludio           Oboevägen 3 c        INGELSTAD            *** Intressen: 13 14 
 ----------------------------------------------------------------------------------------------------

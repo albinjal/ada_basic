@@ -29,7 +29,6 @@ procedure lab6 is
 				exit when temp = 0;
 				Insert(output, temp);
 			end loop;
-
 	end Get;
 
 	procedure Select_From_Interests(Input: in My_IO.File_Type; Selected_Interests: in List_Type) is 
@@ -38,16 +37,39 @@ procedure lab6 is
 		Found_Interests: List_Type;
 		Outfile: Ada.Text_IO.File_Type;
 
+		type boolean_1_15 is Array(1..15) of Boolean;
+		check: boolean_1_15;
+
 		begin
 
 		Create(Outfile,Out_File,"RESULT.TXT");
 
 		while not End_Of_File(Input) loop
+
+			-- Återställ check, inga intressen valda på den nya personen
+			for a in boolean_1_15'Range loop
+				check(a) := false;
+			end loop;
+
 			Read(Input,Person_Input);
 
+			-- Put("-- NEW PERSON -- -- -- -- -- -- -- -- -- -- -- ");New_Line;
+
+
 			for i in Person_Input.Interests'Range loop
-				if Member(Selected_Interests, Person_Input.Interests(i)) then
-				Insert(Found_Interests, Person_Input.Interests(i));
+				if Person_Input.Interests(i) <= 15 AND Person_Input.Interests(i) > 0 then
+					if Member(Selected_Interests, Person_Input.Interests(i)) then
+						
+						-- Kolla om intresset redan fyllts i på denna personen
+						if check(Person_Input.Interests(i)) /= true then
+							
+							-- Spara att detta intresset har fyllts i
+							check(Person_Input.Interests(i)) := true;
+
+							Insert(Found_Interests, Person_Input.Interests(i));
+
+						end if;
+					end if;
 				end if;
 			end loop;
 
@@ -80,7 +102,7 @@ procedure lab6 is
 
 		Reset(Outfile,In_File);
 
-		--Put(Selected_Interests);
+		--Put(S''elected_Interests);
 
 	end Select_From_Interests;
 
