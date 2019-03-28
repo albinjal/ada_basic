@@ -1,48 +1,50 @@
-Kajsa                Kverulando           Basungången 3        KAPELLSKÄR           *** Intressen:  5 10 
+Kajsa                Kverulando           Basungången 3        KAPELLSKÄR           *** Intressen:  1 
 ----------------------------------------------------------------------------------------------------
-Albert               Allegrettho          Fiolgatan 3          ALBY                 *** Intressen:  5 
+Albert               Allegrettho          Fiolgatan 3          ALBY                 *** Intressen:  2 
 ----------------------------------------------------------------------------------------------------
-Gloria               Glissando            Pianovägen 26 d      GLADHAMMAR           *** Intressen:  5 10 
+Gloria               Glissando            Pianovägen 26 d      GLADHAMMAR           *** Intressen:  2  3 
 ----------------------------------------------------------------------------------------------------
-Hilding              Hysterico            Gonggången 5         HYLTEBRUK            *** Intressen:  5 10 
+Hilding              Hysterico            Gonggången 5         HYLTEBRUK            *** Intressen:  2  3 
 ----------------------------------------------------------------------------------------------------
-Pelle                Presto               Ukuleleleden 13      PÅSKALLAVIK          *** Intressen: 10 
+Pelle                Presto               Ukuleleleden 13      PÅSKALLAVIK          *** Intressen:  3 
 ----------------------------------------------------------------------------------------------------
-Stina                Staccato             Gambagatan 66 e      STUDSVIK             *** Intressen: 10 
+Stina                Staccato             Gambagatan 66 e      STUDSVIK             *** Intressen:  1  3 
 ----------------------------------------------------------------------------------------------------
-Kalle A              Tempo                Basungången 15       TECKOMATORP          *** Intressen:  5 10 
+Kalle A              Tempo                Basungången 15       TECKOMATORP          *** Intressen:  1 
 ----------------------------------------------------------------------------------------------------
-Folke                Fortissimo           Cembalovägen 9       FORSMARK             *** Intressen:  5 10 
+Folke                Fortissimo           Cembalovägen 9       FORSMARK             *** Intressen:  3 
 ----------------------------------------------------------------------------------------------------
-Gunnel               Galanto              Horngatan 423        GUSTAVSBERG          *** Intressen: 10 
+Uno                  Unisono              Gigagatan 4          UMEÅ                 *** Intressen:  1  3 
 ----------------------------------------------------------------------------------------------------
-Uno                  Unisono              Gigagatan 4          UMEÅ                 *** Intressen: 10 10 
+Pia                  Piano                Sinkabrinken 12      PITEÅ                *** Intressen:  2 
 ----------------------------------------------------------------------------------------------------
-Pia                  Piano                Sinkabrinken 12      PITEÅ                *** Intressen:  5 
+Grace                Grazioso             Ackordionsvängen 344 GAMMLEBY             *** Intressen:  1  2  3 
 ----------------------------------------------------------------------------------------------------
-Maja                 Majestoso            Basungången 4        MARIESTAD            *** Intressen: 10 
+Rita                 Ritardando           Krumhornskroken 4    RIMFORSA             *** Intressen:  2  3 
 ----------------------------------------------------------------------------------------------------
-Sune                 Subito               Fiddlastigen 5       SURAHAMMAR           *** Intressen: 10 
+M A                  Nontroppo            Fagottstigen 1       NORMLÖSA             *** Intressen:  2  3 
 ----------------------------------------------------------------------------------------------------
-A                    Xelerando            Trumpetstigen 39     AXEVALLA             *** Intressen: 10 
+Maja                 Majestoso            Basungången 4        MARIESTAD            *** Intressen:  2  3 
 ----------------------------------------------------------------------------------------------------
-Osvald               Obligato             Okarinavägen 6 c     OSBY                 *** Intressen:  5 10 
+A                    Xelerando            Trumpetstigen 39     AXEVALLA             *** Intressen:  2 
 ----------------------------------------------------------------------------------------------------
-Johan                Jubilato             Pukallén 4           JULITA               *** Intressen: 10 
+Osvald               Obligato             Okarinavägen 6 c     OSBY                 *** Intressen:  1  2 
 ----------------------------------------------------------------------------------------------------
-Erik                 Effectivo            Ukuleleleden 2       ESKILSTUNA           *** Intressen: 10 
+Johan                Jubilato             Pukallén 4           JULITA               *** Intressen:  2 
 ----------------------------------------------------------------------------------------------------
-Maja                 Molto                Flöjtens väg 2 a     MOLKOM               *** Intressen:  5 
+Erik                 Effectivo            Ukuleleleden 2       ESKILSTUNA           *** Intressen:  2 
 ----------------------------------------------------------------------------------------------------
-Putte                Portato              Harpapassagen 3      PUSTERVIKEN          *** Intressen:  5 
+Dolly                Dolce                Klarinettgatan 4     DOMNARVET            *** Intressen:  2  3 
 ----------------------------------------------------------------------------------------------------
-Palle                Parlando             Orgelgatan 44        PAJALA               *** Intressen: 10 
+Maja                 Molto                Flöjtens väg 2 a     MOLKOM               *** Intressen:  3 
 ----------------------------------------------------------------------------------------------------
-Vilhelm              Virtuoso             Sinkabrinken 5 b     VITTANGI             *** Intressen: 10 
+Palle                Parlando             Orgelgatan 44        PAJALA               *** Intressen:  2  3 
 ----------------------------------------------------------------------------------------------------
-Britta Con           Brio                 Stråket 1            BROMÖLLA             *** Intressen:  5 
+Vilhelm              Virtuoso             Sinkabrinken 5 b     VITTANGI             *** Intressen:  2 
 ----------------------------------------------------------------------------------------------------
-Crister              Cresendo             Basungången 32 a     KRISTIANSTAD         *** Intressen:  5 
+Britta Con           Brio                 Stråket 1            BROMÖLLA             *** Intressen:  1 
 ----------------------------------------------------------------------------------------------------
-Inga                 Interludio           Oboevägen 3 c        INGELSTAD            *** Intressen: 10 
+Dan                  Dacapo               Gitarrvägen 18       DANDERYD             *** Intressen:  2 
+----------------------------------------------------------------------------------------------------
+Inga                 Interludio           Oboevägen 3 c        INGELSTAD            *** Intressen:  1  2 
 ----------------------------------------------------------------------------------------------------
