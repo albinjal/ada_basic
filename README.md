@@ -1,5 +1,3 @@
-# Lab 6 är fixad, vad händer? Går inte att ringa dig, du svarar inte på messenger heller
-
 # Laborationer i Ada
 <b>Laborationer i Ada på LIU 2019, kurskod TDDD11.</b><br>
 <a href="https://www.ida.liu.se/~TDDD11/2018/Matr/SN/labmaterial.sv.shtml">Laborationshandledningar</a>
